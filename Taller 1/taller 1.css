@@ -1,0 +1,177 @@
+*{
+
+    margin: 0;
+}
+
+
+ 
+.main-nav {
+    
+    list-style: none; 
+    padding-left: 10px;
+    background-color: #7D6E83; 
+    display: flex;
+    width: 100%;
+    
+    
+}
+
+.logo {
+    text-align: left;
+    width: 50%;
+    display: flex;
+    margin-left: 10px;
+}  
+
+.logo img {
+    margin-top: 2px;
+    margin-right: 10px;
+    width: 40px;
+    height: 30px;
+}  
+
+
+.titulo {
+    color: white;   
+    font-size: 30px;
+    
+}
+
+ 
+h2 {
+    color:black;
+}
+
+
+.lista_items {
+    text-align: right;
+    width: 49%;
+    margin-top: 5px;
+    margin-right: 20px;
+}
+
+
+.main-nav__item {
+
+    display: inline-block;
+    font-size: 20px;
+
+
+}
+
+.main-nav__item a {
+    
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+
+}
+
+.todo {
+    display: flexbox;
+    width: 100%;
+}
+
+.sidebear {
+    background-color: black;
+    width: 100%;
+}
+
+.foto_personal {
+    margin-top: 0px;
+    text-align: center;
+    width:40%;
+
+
+}
+
+.foto_personal img {
+    width:200px;
+    height: 150px;
+    margin-top: 5px;
+   
+
+}
+
+.izquierda {
+    text-align: center;
+    width:100% ;
+    
+
+    
+}
+
+.informe {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left:50px;
+    margin-right: 50px;
+    display: flex;
+    border: 2px solid ;
+    border-color: #7D6E83;
+    width: 90%;
+}
+
+
+
+.datos_generales {
+    margin-top: 10px;
+    text-align: center;
+    padding: 10px;
+    width: 50%;
+    background-color: F8EDE3;
+    
+}
+
+.datos_personales {
+    
+    color: black;
+
+}
+
+p {
+    color: black;
+}
+
+
+
+
+.tabla_referencias {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left:50px;
+    margin-right: 50px;
+    color: black;
+    width: 90%;
+    text-align: center;
+   
+}
+
+
+ footer {
+    background-color: #7D6E83;
+    color: white;
+  
+    
+ }
+
+ .footer__item {
+
+    display: inline-block;
+    font-size: 20px;
+
+
+
+}
+
+.footer__item a {
+    text-align: center;
+    color: white;
+    padding: 5px;
+
+    text-decoration: none;
+}
+
+::-webkit-scrollbar {
+    display: none;
+    }
